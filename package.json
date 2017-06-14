@@ -1,0 +1,25 @@
+{
+  "name": "nfconnect-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Cassel-Mace",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "pg-promise": "^5.7.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "engines": {
+    "node": "6.10.3"
+
+  }
+}
